@@ -22,9 +22,7 @@ export default function NewTopicForm() {
     
     // dispatch your add topic action here
     history.push(ROUTES.topicsRoute());
-  console.log(id);
-  console.log(name);
-  console.log(icon);
+  
     dispatch(addTopic({id,name,icon}));
   };
 
