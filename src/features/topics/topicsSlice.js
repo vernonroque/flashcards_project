@@ -19,8 +19,8 @@ export const topicsSlice = createSlice({
         },
         addQuizId: (state,action) => {
             const {quizId, topicId} = action.payload;
-            console.log(quizId);
-            console.log(topicId);
+            //console.log(quizId);
+            //console.log(topicId);
             state.topics[topicId].quizIds.push(quizId);
         }
     }
